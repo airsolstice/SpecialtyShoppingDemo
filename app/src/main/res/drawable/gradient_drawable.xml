@@ -1,0 +1,11 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!--实现颜色的渐变-->
+    <!--gradient意思是梯度，倾斜度-->
+    <gradient
+        android:angle="135"
+        android:centerColor="#e91e63"
+        android:endColor="#f92010"
+        android:startColor="#f92010"
+        android:type="linear" />
+</shape>

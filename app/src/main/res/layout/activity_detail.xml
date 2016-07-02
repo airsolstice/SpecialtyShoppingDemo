@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/head_img"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            />
+
+        <RelativeLayout
+            android:layout_marginTop="-240dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="210dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="25dp"
+                android:background="@drawable/back"
+                android:layout_alignParentLeft="true"
+                android:layout_height="25dp"/>
+
+
+
+            <ImageButton
+                android:id="@+id/trolley"
+                android:layout_width="25dp"
+                android:background="@drawable/trolley"
+                android:layout_alignParentRight="true"
+                android:layout_height="25dp"/>
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="杨大爷"
+            android:textColor="#272636"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/introduce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:paddingLeft="15dp"
+            android:text="杨大爷经典麻辣香肠川味腊肠500g烟熏肉腊肠四川特产腊肉腊味"
+            android:textSize="12sp"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#7fbdbdbd"
+            />
+
+
+        <TextView
+            android:id="@+id/shopName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:paddingLeft="10dp"
+            android:text="杨大爷官方旗舰店"
+            android:textColor="#272636"
+            android:textSize="15sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#7fbdbdbd"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/add"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rect_btn_ybg"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="加入购物车"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/purchase"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rect_btn_ybg"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="立即购买"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#7fbdbdbd"
+            />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:paddingLeft="10dp"
+            android:text="评论"
+            android:textColor="#272636"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:paddingLeft="10dp"
+            android:text="物美价廉，物超所值！"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#7fbdbdbd"
+            />
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@drawable/rect_btn_bg"
+            android:padding="5dp"
+            android:text="查看评论"
+            android:textStyle="bold"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#7fbdbdbd"
+            />
+
+
+        <ImageView
+            android:id="@+id/introduce_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
